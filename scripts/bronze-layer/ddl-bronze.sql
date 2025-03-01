@@ -1,5 +1,5 @@
 /*
-## DDL SCRIPT FOR [BRONZE LAYER]
+##DDL SCRIPT FOR [BRONZE LAYER]
 ------------------------------------------------------------------------------------------------------------
 Here is the refined and structured DDL script for the Bronze Layer, along with its purpose and loading method.
 
@@ -10,7 +10,7 @@ No Constraints: No Primary Keys or Foreign Keys are added since data is directly
 Data Staging: Acts as a temporary storage before transforming data into the Silver Layer for cleaning and processing.
 Import Method: Data is loaded using MySQL Data Import Wizard.
 
-#🔹 DDL Script for Bronze Layer (No Constraints, Raw Data Storage) 
+#DDL Script for Bronze Layer (No Constraints, Raw Data Storage) 
 
 -- Step 1: Create Database
 CREATE DATABASE IF NOT EXISTS Datawarehouse;
